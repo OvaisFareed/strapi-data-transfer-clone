@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq_keys",
+  "info": {
+    "singularName": "faq-key",
+    "pluralName": "faq-keys",
+    "displayName": "FAQ key"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "currency_chart_configs",
+  "info": {
+    "singularName": "currency-chart-config",
+    "pluralName": "currency-chart-configs",
+    "displayName": "Currency Chart Config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stroke_color": {
+      "type": "string"
+    },
+    "line_style": {
+      "type": "string"
+    },
+    "tick_point": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "stroke_width": {
+      "type": "integer"
+    },
+    "chart_type": {
+      "type": "string"
+    }
+  }
+}

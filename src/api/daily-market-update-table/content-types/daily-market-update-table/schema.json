@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "daily_market_update_tables",
+  "info": {
+    "singularName": "daily-market-update-table",
+    "pluralName": "daily-market-update-tables",
+    "displayName": "Daily Market Update Table"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "data_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-market-update.fx-daily-market-update"
+    }
+  }
+}

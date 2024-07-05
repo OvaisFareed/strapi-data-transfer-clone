@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "partner_with_uses",
+  "info": {
+    "singularName": "partner-with-us",
+    "pluralName": "partner-with-uses",
+    "displayName": "Partner with us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.form"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    }
+  }
+}

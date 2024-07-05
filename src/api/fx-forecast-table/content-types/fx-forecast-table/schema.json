@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fx_forecast_tables",
+  "info": {
+    "singularName": "fx-forecast-table",
+    "pluralName": "fx-forecast-tables",
+    "displayName": "Fx Forecast Table",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "header_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.label"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.fx-forecast-table-row"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "is_unit": {
+      "type": "boolean"
+    },
+    "unit": {
+      "type": "string"
+    }
+  }
+}

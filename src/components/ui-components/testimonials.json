@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_components_testimonials",
+  "info": {
+    "displayName": "Testimonials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.testimonial"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.link-button"
+    }
+  }
+}

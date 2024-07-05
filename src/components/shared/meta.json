@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_shared_metas",
+  "info": {
+    "displayName": "meta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "og_title": {
+      "type": "string"
+    },
+    "og_description": {
+      "type": "text"
+    },
+    "google_web_master": {
+      "type": "string"
+    },
+    "og_locale": {
+      "type": "string",
+      "default": "en_CA"
+    },
+    "og_locale_alternative": {
+      "type": "string",
+      "default": "en_US"
+    },
+    "keywords": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.label"
+    },
+    "og_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "site_name": {
+      "type": "string"
+    },
+    "twitter_card_type": {
+      "type": "string"
+    },
+    "twitter_site": {
+      "type": "string"
+    },
+    "twitter_author": {
+      "type": "string"
+    }
+  }
+}

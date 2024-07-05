@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_components_section_3s",
+  "info": {
+    "displayName": "Section-3",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "boardItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.board-item-2"
+    }
+  }
+}

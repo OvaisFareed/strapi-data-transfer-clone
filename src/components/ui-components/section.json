@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_components_sections",
+  "info": {
+    "displayName": "Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "boardItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.card"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

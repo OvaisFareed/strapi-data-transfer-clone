@@ -1,0 +1,80 @@
+{
+  "kind": "singleType",
+  "collectionName": "fx_forecast_v2s",
+  "info": {
+    "singularName": "fx-forecast-v2",
+    "pluralName": "fx-forecast-v2s",
+    "displayName": "Fx Forecast v2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tool-banner"
+    },
+    "article_slides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article-slide.article-slide"
+    },
+    "newsletter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.form"
+    },
+    "how_it_work": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::how-it-work.how-it-work"
+    },
+    "USD_CAD_commentry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.protecting-your-business"
+    },
+    "USD_CAD_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-forecast-table.fx-forecast-table"
+    },
+    "EUR_CAD_commentry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.protecting-your-business"
+    },
+    "EUR_CAD_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-forecast-table.fx-forecast-table"
+    },
+    "GBP_CAD_commentry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.protecting-your-business"
+    },
+    "GBP_CAD_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-forecast-table.fx-forecast-table"
+    },
+    "before_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tool-banner"
+    }
+  }
+}

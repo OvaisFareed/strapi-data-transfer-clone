@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "international_payments",
+  "info": {
+    "singularName": "international-payment",
+    "pluralName": "international-payments",
+    "displayName": "International Payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::banner.banner"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    },
+    "checklist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::checklist.checklist"
+    },
+    "guide_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.card"
+    }
+  }
+}

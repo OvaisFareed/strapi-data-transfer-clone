@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nav_menu_items",
+  "info": {
+    "singularName": "nav-menu-item",
+    "pluralName": "nav-menu-items",
+    "displayName": "Nav Menu Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "submenu": {
+      "type": "boolean"
+    },
+    "parent": {
+      "type": "string"
+    },
+    "shown_on_navbar": {
+      "type": "boolean"
+    },
+    "shown_on_footer": {
+      "type": "boolean"
+    },
+    "sort_order": {
+      "type": "integer"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "sublinks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::nav-menu-item.nav-menu-item"
+    },
+    "is_on_sitemap": {
+      "type": "boolean",
+      "default": true
+    },
+    "base_url": {
+      "type": "string",
+      "default": "https://uat-content.mtfxgroup.com"
+    }
+  }
+}

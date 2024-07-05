@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "currency_conversions",
+  "info": {
+    "singularName": "currency-conversion",
+    "pluralName": "currency-conversions",
+    "displayName": "Currency Conversion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "conversion_form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.form"
+    },
+    "bank_slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.bank-slider"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    },
+    "how_it_works": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::how-it-work.how-it-work"
+    }
+  }
+}

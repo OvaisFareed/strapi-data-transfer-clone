@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_banners",
+  "info": {
+    "singularName": "top-banner",
+    "pluralName": "top-banners",
+    "displayName": "Top Banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

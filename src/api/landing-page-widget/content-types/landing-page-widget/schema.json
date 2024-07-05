@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_page_widgets",
+  "info": {
+    "singularName": "landing-page-widget",
+    "pluralName": "landing-page-widgets",
+    "displayName": "Landing Page Widget",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Compare Chart",
+        "Fx Monthly",
+        "Currency Chart",
+        "Historical Rates",
+        "Live Exchange",
+        "Compare Chart 2",
+        "Currency Conversion"
+      ]
+    },
+    "from_label": {
+      "type": "string"
+    },
+    "to_label": {
+      "type": "string"
+    },
+    "conversion_message": {
+      "type": "string"
+    },
+    "mtfx_fee_text": {
+      "type": "string"
+    },
+    "total_amount_text": {
+      "type": "string"
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::button.button"
+    },
+    "style": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "signup_button_hint": {
+      "type": "richtext"
+    },
+    "min_amount": {
+      "type": "integer"
+    },
+    "rate_validation": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

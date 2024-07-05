@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "tools_indices",
+  "info": {
+    "singularName": "tools-index",
+    "pluralName": "tools-indices",
+    "displayName": "Tools Index"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_ui_components_currency_update_items",
+  "info": {
+    "displayName": "Currency Update Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.link-button"
+    }
+  }
+}

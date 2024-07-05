@@ -1,0 +1,85 @@
+{
+  "kind": "singleType",
+  "collectionName": "mains",
+  "info": {
+    "singularName": "main",
+    "pluralName": "mains",
+    "displayName": "Main",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-page.dynamic-header"
+    },
+    "try_us": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.card"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "exchange_rates": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.table"
+    },
+    "registration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.sub-banner"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.testimonial"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    },
+    "how_it_works": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    },
+    "mtfx_features": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mtfx-feature.mtfx-feature"
+    },
+    "fx_bg_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "style": {
+      "type": "richtext"
+    }
+  }
+}

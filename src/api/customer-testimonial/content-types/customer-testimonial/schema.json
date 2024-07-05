@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "customer_testimonials",
+  "info": {
+    "singularName": "customer-testimonial",
+    "pluralName": "customer-testimonials",
+    "displayName": "Customer Testimonial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    }
+  }
+}

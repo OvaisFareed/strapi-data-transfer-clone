@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "regulatory_information_tab_contents",
+  "info": {
+    "singularName": "regulatory-information-tab-content",
+    "pluralName": "regulatory-information-tab-contents",
+    "displayName": "Regulatory Information Tab Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageID": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    }
+  }
+}

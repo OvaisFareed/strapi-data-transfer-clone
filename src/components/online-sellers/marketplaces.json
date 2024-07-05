@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_online_sellers_marketplaces",
+  "info": {
+    "displayName": "Marketplaces",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

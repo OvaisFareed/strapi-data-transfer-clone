@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_ui_components_dashboards",
+  "info": {
+    "displayName": "Dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.link-button"
+    },
+    "side_panel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.sub-banner"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    }
+  }
+}

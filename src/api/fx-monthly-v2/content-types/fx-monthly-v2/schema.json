@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "fx_monthly_v2s",
+  "info": {
+    "singularName": "fx-monthly-v2",
+    "pluralName": "fx-monthly-v2s",
+    "displayName": "Fx Monthly v2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tool-banner"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.card"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.form"
+    },
+    "faq": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq.faq"
+    },
+    "style": {
+      "type": "richtext"
+    },
+    "headline": {
+      "type": "richtext"
+    }
+  }
+}

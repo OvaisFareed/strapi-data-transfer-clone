@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testing_logs",
+  "info": {
+    "singularName": "testing-log",
+    "pluralName": "testing-logs",
+    "displayName": "Testing logs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "records": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "range": {
+      "type": "string",
+      "default": "null",
+      "required": false
+    },
+    "statuses": {
+      "type": "json"
+    }
+  }
+}

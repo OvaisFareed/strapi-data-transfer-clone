@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_ui_components_job_posting_accordions",
+  "info": {
+    "displayName": "Job Posting Accordion"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

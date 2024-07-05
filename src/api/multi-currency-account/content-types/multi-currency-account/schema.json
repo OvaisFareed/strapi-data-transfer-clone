@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "multi_currency_accounts",
+  "info": {
+    "singularName": "multi-currency-account",
+    "pluralName": "multi-currency-accounts",
+    "displayName": " Multi-Currency Account",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    },
+    "guide_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.card"
+    },
+    "checklist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::checklist.checklist"
+    }
+  }
+}

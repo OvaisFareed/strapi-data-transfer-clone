@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_components_fx_daily_trading_table_rows",
+  "info": {
+    "displayName": "FX Daily Trading Table Row"
+  },
+  "options": {},
+  "attributes": {
+    "from": {
+      "type": "string"
+    },
+    "from_rate": {
+      "type": "string"
+    },
+    "to_rate": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

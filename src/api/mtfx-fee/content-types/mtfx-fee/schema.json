@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mtfx_fees",
+  "info": {
+    "singularName": "mtfx-fee",
+    "pluralName": "mtfx-fees",
+    "displayName": "mtfx fee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "credit_amount": {
+      "type": "integer"
+    },
+    "source": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    },
+    "currencies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.mtfx-fee"
+    }
+  }
+}

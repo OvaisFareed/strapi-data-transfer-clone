@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_ui_components_images",
+  "info": {
+    "displayName": "Image"
+  },
+  "options": {},
+  "attributes": {
+    "src": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

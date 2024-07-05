@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_tables",
+  "info": {
+    "displayName": "Table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "thead": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-header-item"
+    },
+    "title": {
+      "type": "string"
+    },
+    "tooltip": {
+      "type": "text"
+    },
+    "style": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_ui_components_widgets",
+  "info": {
+    "displayName": "Widget",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Compare Chart",
+        "Fx Monthly",
+        "Currency Chart",
+        "Historical Rates",
+        "Live Exchange",
+        "Compare Chart 2",
+        "Currency Conversion"
+      ]
+    },
+    "style": {
+      "type": "richtext"
+    },
+    "from_label": {
+      "type": "string"
+    },
+    "to_label": {
+      "type": "string"
+    },
+    "conversion_message": {
+      "type": "string"
+    },
+    "mtfx_fee_text": {
+      "type": "string"
+    },
+    "total_amount_text": {
+      "type": "string"
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::button.button"
+    },
+    "signup_button_hint": {
+      "type": "richtext"
+    },
+    "min_amount": {
+      "type": "integer"
+    },
+    "rate_validation": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

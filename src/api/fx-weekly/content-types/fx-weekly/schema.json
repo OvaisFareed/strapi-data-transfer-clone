@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fx_weeklies",
+  "info": {
+    "singularName": "fx-weekly",
+    "pluralName": "fx-weeklies",
+    "displayName": "FX Weekly",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "date": {
+      "type": "date"
+    },
+    "image": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "excerpt": {
+      "type": "text"
+    }
+  }
+}

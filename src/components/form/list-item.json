@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_list_items",
+  "info": {
+    "displayName": "List Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

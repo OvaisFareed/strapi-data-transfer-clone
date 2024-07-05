@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tab_items",
+  "info": {
+    "singularName": "tab-item",
+    "pluralName": "tab-items",
+    "displayName": "Tab Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageID": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.tab-item"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "is_legals",
+  "info": {
+    "singularName": "is-legal",
+    "pluralName": "is-legals",
+    "displayName": "IS-Legal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-page.dynamic-header"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta"
+    },
+    "mtfxFeatures": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mtfx-feature.mtfx-feature"
+    },
+    "letUsWatch": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::let-us-watch.let-us-watch"
+    },
+    "currencyChart": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::currency-chart.currency-chart"
+    },
+    "newsletter": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::newsletter.newsletter"
+    },
+    "faq": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq.faq"
+    }
+  }
+}

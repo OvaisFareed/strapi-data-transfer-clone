@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "default_currency_codes",
+  "info": {
+    "singularName": "default-currency-code",
+    "pluralName": "default-currency-codes",
+    "displayName": "Default Currency Code"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_csses",
+  "info": {
+    "singularName": "global-css",
+    "pluralName": "global-csses",
+    "displayName": "Global-css"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Css": {
+      "type": "richtext"
+    }
+  }
+}

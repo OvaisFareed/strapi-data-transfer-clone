@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "tools_historical_rates",
+  "info": {
+    "singularName": "tools-historical-rate",
+    "pluralName": "tools-historical-rates",
+    "displayName": "Tools-Historical-Rate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-page.dynamic-header"
+    },
+    "sections": {
+      "type": "json"
+    },
+    "metadata": {
+      "type": "json"
+    }
+  }
+}

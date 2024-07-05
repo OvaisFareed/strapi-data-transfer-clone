@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_components_tabs",
+  "info": {
+    "displayName": "Tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.link"
+    }
+  }
+}

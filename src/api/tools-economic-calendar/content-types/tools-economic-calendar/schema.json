@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "tools_economic_calendars",
+  "info": {
+    "singularName": "tools-economic-calendar",
+    "pluralName": "tools-economic-calendars",
+    "displayName": "Tools-Economic-Calendar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-page.dynamic-header"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta"
+    },
+    "chart": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.dynamic-graph"
+    },
+    "calendarFeatures": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.protecting-your-business"
+    },
+    "registration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-page.dynamic-header"
+    },
+    "mtfxFeatures": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mtfx-feature.mtfx-feature"
+    },
+    "faq": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq.faq"
+    }
+  }
+}

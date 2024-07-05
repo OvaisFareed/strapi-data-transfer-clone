@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_components_icons",
+  "info": {
+    "displayName": "Icon"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

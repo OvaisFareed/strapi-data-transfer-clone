@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "economic_events_with_dates",
+  "info": {
+    "singularName": "economic-events-with-date",
+    "pluralName": "economic-events-with-dates",
+    "displayName": "Economic Events With Date",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "event_id": {
+      "type": "string"
+    },
+    "event_name": {
+      "type": "string"
+    },
+    "generic_name": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    },
+    "source": {
+      "type": "string"
+    },
+    "is_inverse": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

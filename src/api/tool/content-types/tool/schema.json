@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tools",
+  "info": {
+    "singularName": "tool",
+    "pluralName": "tools",
+    "displayName": "Tool",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "article": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.protecting-your-business"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tool-banner"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mtfx-feature.mtfx-feature"
+    },
+    "faq": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq.faq"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "style": {
+      "type": "richtext"
+    },
+    "chart_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "banner_v2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tool-banner"
+    },
+    "banner_v3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tool-banner"
+    }
+  }
+}

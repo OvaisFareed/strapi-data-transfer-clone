@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_components_bank_sliders",
+  "info": {
+    "displayName": "Bank Slider"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.bank-card"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fx_dailies",
+  "info": {
+    "singularName": "fx-daily",
+    "pluralName": "fx-dailies",
+    "displayName": "FX Daily",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "date": {
+      "type": "date"
+    },
+    "image": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "excerpt": {
+      "type": "text"
+    }
+  }
+}

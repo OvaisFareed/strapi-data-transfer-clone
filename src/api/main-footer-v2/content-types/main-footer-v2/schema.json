@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_footer_v2s",
+  "info": {
+    "singularName": "main-footer-v2",
+    "pluralName": "main-footer-v2s",
+    "displayName": "Main Footer v2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

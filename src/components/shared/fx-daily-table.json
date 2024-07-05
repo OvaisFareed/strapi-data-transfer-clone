@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_fx_daily_tables",
+  "info": {
+    "displayName": "FX Daily Table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "header_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.label"
+    },
+    "data_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-rates-table.fx-daily-rates-table"
+    },
+    "style": {
+      "type": "richtext"
+    }
+  }
+}

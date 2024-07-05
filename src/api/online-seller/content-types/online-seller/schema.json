@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "online_sellers",
+  "info": {
+    "singularName": "online-seller",
+    "pluralName": "online-sellers",
+    "displayName": "Online Seller",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "how_it_works": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::how-it-work.how-it-work"
+    },
+    "checklist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::checklist.checklist"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    },
+    "marketplaces": {
+      "type": "component",
+      "repeatable": false,
+      "component": "online-sellers.marketplaces"
+    },
+    "guide_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.card"
+    }
+  }
+}

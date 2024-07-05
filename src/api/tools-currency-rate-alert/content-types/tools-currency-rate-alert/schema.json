@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "tools_currency_rate_alerts",
+  "info": {
+    "singularName": "tools-currency-rate-alert",
+    "pluralName": "tools-currency-rate-alerts",
+    "displayName": "Tools-Currency Rate Alert"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-page.dynamic-header"
+    },
+    "sections": {
+      "type": "json"
+    },
+    "metadata": {
+      "type": "json"
+    }
+  }
+}

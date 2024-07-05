@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_components_mtfx_fees",
+  "info": {
+    "displayName": "mtfx fee"
+  },
+  "options": {},
+  "attributes": {
+    "currency_code": {
+      "type": "string"
+    },
+    "fee": {
+      "type": "integer"
+    },
+    "base_amount": {
+      "type": "integer"
+    }
+  }
+}

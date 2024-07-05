@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "medium_businesses",
+  "info": {
+    "singularName": "medium-business",
+    "pluralName": "medium-businesses",
+    "displayName": "Medium Business",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    },
+    "how_it_works": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::how-it-work.how-it-work"
+    },
+    "mtfx_features": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mtfx-feature.mtfx-feature"
+    }
+  }
+}

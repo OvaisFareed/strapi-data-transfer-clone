@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ui_components_bank_cards",
+  "info": {
+    "displayName": "Bank Card"
+  },
+  "options": {},
+  "attributes": {
+    "header_item_1": {
+      "type": "string"
+    },
+    "header_item_2": {
+      "type": "string"
+    },
+    "dot_color": {
+      "type": "string"
+    },
+    "bank_name": {
+      "type": "string"
+    },
+    "cad_saved": {
+      "type": "string"
+    },
+    "bank_url": {
+      "type": "string"
+    }
+  }
+}

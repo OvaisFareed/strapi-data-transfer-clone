@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "tools_rate_calculators",
+  "info": {
+    "singularName": "tools-rate-calculator",
+    "pluralName": "tools-rate-calculators",
+    "displayName": "Tools-Rate-Calculator",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "chart": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.dynamic-graph"
+    },
+    "registration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-page.dynamic-header"
+    },
+    "mtfxFeatures": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mtfx-feature.mtfx-feature"
+    },
+    "faq": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq.faq"
+    }
+  }
+}

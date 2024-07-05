@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_footers",
+  "info": {
+    "singularName": "main-footer",
+    "pluralName": "main-footers",
+    "displayName": "Main Footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "style": {
+      "type": "richtext"
+    }
+  }
+}

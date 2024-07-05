@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "layouts",
+  "info": {
+    "singularName": "layout",
+    "pluralName": "layouts",
+    "displayName": "Business Layout",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "let_us_watch": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::let-us-watch.let-us-watch"
+    },
+    "currency_chart": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::currency-chart.currency-chart"
+    },
+    "newsletter": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::newsletter.newsletter"
+    },
+    "faq": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq.faq"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mtfx-feature.mtfx-feature"
+    }
+  }
+}

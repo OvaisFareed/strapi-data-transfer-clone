@@ -1,0 +1,78 @@
+{
+  "kind": "singleType",
+  "collectionName": "fx_daily_v3s",
+  "info": {
+    "singularName": "fx-daily-v3",
+    "pluralName": "fx-daily-v3s",
+    "displayName": "FX Daily v3",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tool-banner"
+    },
+    "article_slides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article-slide.article-slide"
+    },
+    "newsletter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.form"
+    },
+    "how_it_work": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::how-it-work.how-it-work"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "before_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tool-banner"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "fx_rates_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-rates-table.fx-daily-rates-table"
+    },
+    "fx_trading_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-trading-table.fx-daily-trading-table"
+    },
+    "fx_economic_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-economic-table.fx-daily-economic-table"
+    },
+    "fx_market_update": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-market-update.fx-daily-market-update"
+    }
+  }
+}

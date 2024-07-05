@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_newsletters",
+  "info": {
+    "displayName": "Newsletter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.form"
+    },
+    "boardItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.card"
+    },
+    "agreement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.form"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.link-button"
+    }
+  }
+}

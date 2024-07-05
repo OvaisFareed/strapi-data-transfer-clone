@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fx_daily_economic_tables",
+  "info": {
+    "singularName": "fx-daily-economic-table",
+    "pluralName": "fx-daily-economic-tables",
+    "displayName": "FX Economic Table",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.fx-daily-economic-table-row"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "title": {
+      "type": "string"
+    },
+    "header_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.label"
+    }
+  }
+}

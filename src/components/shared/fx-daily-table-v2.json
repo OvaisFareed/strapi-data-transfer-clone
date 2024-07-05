@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_fx_daily_table_v2s",
+  "info": {
+    "displayName": "FX Daily Table v2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "header_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.label"
+    },
+    "data_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-trading-table.fx-daily-trading-table"
+    },
+    "style": {
+      "type": "richtext"
+    }
+  }
+}

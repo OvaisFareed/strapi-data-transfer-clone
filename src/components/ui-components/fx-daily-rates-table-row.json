@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ui_components_fx_daily_rates_table_rows",
+  "info": {
+    "displayName": "FX Daily Rates Table Row"
+  },
+  "options": {},
+  "attributes": {
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "spot_rate": {
+      "type": "string"
+    },
+    "daily_change": {
+      "type": "string"
+    },
+    "week_to_date": {
+      "type": "string"
+    },
+    "month_to_date": {
+      "type": "string"
+    }
+  }
+}

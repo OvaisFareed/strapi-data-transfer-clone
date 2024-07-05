@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "industry_solutions",
+  "info": {
+    "singularName": "industry-solution",
+    "pluralName": "industry-solutions",
+    "displayName": "Industry Solution",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    }
+  }
+}

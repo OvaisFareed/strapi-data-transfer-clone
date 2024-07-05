@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "tools_live_exchange_rates",
+  "info": {
+    "singularName": "tools-live-exchange-rate",
+    "pluralName": "tools-live-exchange-rates",
+    "displayName": "Tools-Live-Exchange-Rate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-page.dynamic-header"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta"
+    },
+    "chart": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.dynamic-graph"
+    },
+    "mtfxBenefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.protecting-your-business"
+    },
+    "registration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-page.dynamic-header"
+    },
+    "mtfxFeatures": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mtfx-feature.mtfx-feature"
+    },
+    "faq": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq.faq"
+    },
+    "socialIcons": {
+      "type": "dynamiczone",
+      "components": [
+        "ui-components.icon"
+      ]
+    }
+  }
+}

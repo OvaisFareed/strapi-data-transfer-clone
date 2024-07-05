@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_components_testimonial_industries",
+  "info": {
+    "displayName": "Testimonial Industry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.link-button"
+    }
+  }
+}

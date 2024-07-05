@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "currency_dropdowns",
+  "info": {
+    "singularName": "currency-dropdown",
+    "pluralName": "currency-dropdowns",
+    "displayName": "Currency Dropdown",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "primary": {
+      "type": "string"
+    },
+    "secondary": {
+      "type": "string"
+    },
+    "flag": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "is_supported": {
+      "type": "boolean"
+    },
+    "inverse": {
+      "type": "boolean"
+    },
+    "two_letter_code": {
+      "type": "string"
+    }
+  }
+}

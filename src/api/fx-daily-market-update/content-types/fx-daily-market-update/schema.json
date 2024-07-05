@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fx_daily_market_updates",
+  "info": {
+    "singularName": "fx-daily-market-update",
+    "pluralName": "fx-daily-market-updates",
+    "displayName": "FX Market Update",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.protecting-your-business"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

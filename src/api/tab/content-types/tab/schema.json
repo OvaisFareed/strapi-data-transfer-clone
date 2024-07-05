@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tabs",
+  "info": {
+    "singularName": "tab",
+    "pluralName": "tabs",
+    "displayName": "Tabs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageID": {
+      "type": "string"
+    },
+    "tabsContent": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tab-content.tab-content"
+    },
+    "tabsList": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tab-item.tab-item"
+    }
+  }
+}

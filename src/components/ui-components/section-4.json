@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_components_section_4s",
+  "info": {
+    "displayName": "Section-4"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.list-item"
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::button.button"
+    }
+  }
+}

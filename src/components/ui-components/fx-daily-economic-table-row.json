@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_components_fx_daily_economic_table_rows",
+  "info": {
+    "displayName": "FX Daily Economic Table Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "from": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}

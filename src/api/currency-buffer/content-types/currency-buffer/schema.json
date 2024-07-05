@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "currency_buffers",
+  "info": {
+    "singularName": "currency-buffer",
+    "pluralName": "currency-buffers",
+    "displayName": "currency buffer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "buffer": {
+      "type": "float"
+    },
+    "source": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

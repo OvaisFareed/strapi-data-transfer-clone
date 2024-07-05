@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/economic-calendars",
+      "handler": "economic-calendar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/economic-calendars",
+      "handler": "economic-calendar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/economic-calendars/:id",
+      "handler": "economic-calendar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/economic-calendars/:id",
+      "handler": "economic-calendar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/economic-calendars/:id",
+      "handler": "economic-calendar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

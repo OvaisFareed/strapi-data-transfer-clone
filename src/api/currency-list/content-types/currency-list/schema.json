@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "currency_lists",
+  "info": {
+    "singularName": "currency-list",
+    "pluralName": "currency-lists",
+    "displayName": "Currency List",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "currency_code": {
+      "type": "string"
+    },
+    "currency_name": {
+      "type": "string"
+    },
+    "is_supported": {
+      "type": "boolean"
+    },
+    "inverse": {
+      "type": "boolean"
+    },
+    "two_letter_code": {
+      "type": "string"
+    }
+  }
+}

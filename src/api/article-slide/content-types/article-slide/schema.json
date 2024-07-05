@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_slides",
+  "info": {
+    "singularName": "article-slide",
+    "pluralName": "article-slides",
+    "displayName": "Article Slide",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": false
+    },
+    "button_text": {
+      "type": "string"
+    }
+  }
+}

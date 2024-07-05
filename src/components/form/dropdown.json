@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_form_dropdowns",
+  "info": {
+    "displayName": "Dropdown"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "searchBar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.form"
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.option"
+    },
+    "defaultValue": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

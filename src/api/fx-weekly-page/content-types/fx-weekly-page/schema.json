@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "fx_weekly_pages",
+  "info": {
+    "singularName": "fx-weekly-page",
+    "pluralName": "fx-weekly-pages",
+    "displayName": "FX Weekly Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    }
+  }
+}

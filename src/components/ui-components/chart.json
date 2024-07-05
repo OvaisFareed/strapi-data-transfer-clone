@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_chart_charts",
+  "info": {
+    "displayName": "Chart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

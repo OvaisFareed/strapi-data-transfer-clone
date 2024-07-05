@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_compare_chart_banks",
+  "info": {
+    "displayName": "Bank"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "isOrange": {
+      "type": "boolean"
+    }
+  }
+}

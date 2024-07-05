@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_ui_components_dynamic_graphs",
+  "info": {
+    "displayName": "Dynamic Charts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "filters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.form"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.link-button"
+    },
+    "chartData": {
+      "type": "json"
+    },
+    "tooltip": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-page.dynamic-header"
+    },
+    "subBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.sub-banner"
+    },
+    "how_it_works": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::how-it-work.how-it-work"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "widget": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.widget"
+    },
+    "widget_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.widget-2"
+    },
+    "style": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "string"
+    },
+    "fx_payment_links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.section-4"
+    },
+    "bank_slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.bank-slider"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

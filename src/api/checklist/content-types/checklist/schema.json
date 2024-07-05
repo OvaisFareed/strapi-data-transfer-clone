@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "checklists",
+  "info": {
+    "singularName": "checklist",
+    "pluralName": "checklists",
+    "displayName": "Checklist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.check-item"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fx_daily_rates_tables",
+  "info": {
+    "singularName": "fx-daily-rates-table",
+    "pluralName": "fx-daily-rates-tables",
+    "displayName": "FX Rates Table",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.fx-daily-rates-table-row"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "header_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.label"
+    },
+    "date": {
+      "type": "date"
+    },
+    "title": {
+      "type": "string"
+    },
+    "is_unit": {
+      "type": "boolean"
+    },
+    "unit": {
+      "type": "string"
+    }
+  }
+}

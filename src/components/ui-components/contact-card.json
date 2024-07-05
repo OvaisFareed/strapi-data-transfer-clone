@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_components_contact_cards",
+  "info": {
+    "displayName": "Contact Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.tab-icon"
+    },
+    "foreground": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.tab-icon"
+    }
+  }
+}

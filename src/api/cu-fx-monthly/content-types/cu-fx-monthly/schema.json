@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "cu_fx_monthlies",
+  "info": {
+    "singularName": "cu-fx-monthly",
+    "pluralName": "cu-fx-monthlies",
+    "displayName": "Fx Monthly",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "fx_daily_updates",
+  "info": {
+    "singularName": "fx-daily-update",
+    "pluralName": "fx-daily-updates",
+    "displayName": "FX Daily Update",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "table_content": {
+      "type": "richtext"
+    },
+    "sub_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.sub-banner"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tool-banner"
+    },
+    "after_cta_content": {
+      "type": "richtext"
+    },
+    "article_slides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article-slide.article-slide"
+    },
+    "newsletter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.form"
+    },
+    "how_it_work": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::how-it-work.how-it-work"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "sections": {
+      "type": "richtext"
+    }
+  }
+}

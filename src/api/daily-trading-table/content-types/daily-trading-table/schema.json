@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "daily_trading_tables",
+  "info": {
+    "singularName": "daily-trading-table",
+    "pluralName": "daily-trading-tables",
+    "displayName": "Daily Trading Table"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "data_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-trading-table.fx-daily-trading-table"
+    },
+    "footer": {
+      "type": "richtext"
+    }
+  }
+}

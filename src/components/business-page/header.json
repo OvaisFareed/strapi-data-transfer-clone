@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_business_page_headers",
+  "info": {
+    "displayName": "Header"
+  },
+  "options": {},
+  "attributes": {
+    "tabs": {
+      "displayName": "tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.tabs"
+    }
+  }
+}

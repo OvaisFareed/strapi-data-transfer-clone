@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_page_headers",
+  "info": {
+    "singularName": "landing-page-header",
+    "pluralName": "landing-page-headers",
+    "displayName": "Landing Page Header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heading": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::button.button"
+    },
+    "button_2": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::button.button"
+    },
+    "style": {
+      "type": "richtext"
+    },
+    "source": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    }
+  }
+}

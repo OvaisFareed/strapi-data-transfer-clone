@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "fx_monthly_v3s",
+  "info": {
+    "singularName": "fx-monthly-v3",
+    "pluralName": "fx-monthly-v3s",
+    "displayName": "Fx Monthly CAD",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "before_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tool-banner"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tool-banner"
+    },
+    "article_slides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article-slide.article-slide"
+    },
+    "how_it_work": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::how-it-work.how-it-work"
+    },
+    "fx_rates_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-rates-table.fx-daily-rates-table"
+    },
+    "fx_trading_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-trading-table.fx-daily-trading-table"
+    },
+    "fx_economic_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-economic-table.fx-daily-economic-table"
+    },
+    "newsletter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.form"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "fx_rates_table_v2": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-rates-table.fx-daily-rates-table"
+    }
+  }
+}

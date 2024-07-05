@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "live_exchange_rates_defaults",
+  "info": {
+    "singularName": "live-exchange-rates-default",
+    "pluralName": "live-exchange-rates-defaults",
+    "displayName": "Live Exchange Rates Default"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.label"
+    }
+  }
+}

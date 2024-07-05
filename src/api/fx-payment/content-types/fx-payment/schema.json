@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "fx_payments",
+  "info": {
+    "singularName": "fx-payment",
+    "pluralName": "fx-payments",
+    "displayName": "Fx Payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "fx_payment_links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.section-4"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    },
+    "how_it_works": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::how-it-work.how-it-work"
+    }
+  }
+}

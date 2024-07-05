@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fx_sections",
+  "info": {
+    "singularName": "fx-section",
+    "pluralName": "fx-sections",
+    "displayName": "Fx section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "footer": {
+      "type": "richtext"
+    },
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::table-content.table-content"
+    },
+    "style": {
+      "type": "richtext"
+    }
+  }
+}

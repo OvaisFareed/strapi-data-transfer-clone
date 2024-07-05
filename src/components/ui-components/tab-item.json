@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_components_tab_items",
+  "info": {
+    "displayName": "Tab Item"
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.tab-icon"
+    },
+    "foreground": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.tab-icon"
+    }
+  }
+}

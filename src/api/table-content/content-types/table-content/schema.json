@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "table_contents",
+  "info": {
+    "singularName": "table-content",
+    "pluralName": "table-contents",
+    "displayName": "Table Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "daily_change": {
+      "type": "string"
+    },
+    "week_to_date": {
+      "type": "string"
+    },
+    "month_to_date": {
+      "type": "string"
+    },
+    "page_url": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "richtext"
+    },
+    "from_rate": {
+      "type": "string"
+    },
+    "to_rate": {
+      "type": "string"
+    },
+    "spot_rate": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_forward_contract_protecting_your_businesses",
+  "info": {
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

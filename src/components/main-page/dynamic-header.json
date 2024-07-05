@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_ui_components_dynamic_headers",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::button.button"
+    },
+    "style": {
+      "type": "richtext"
+    },
+    "css": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::style.style"
+    },
+    "heading": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "button_2": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::button.button"
+    }
+  }
+}

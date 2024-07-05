@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "economic_events_logs",
+  "info": {
+    "singularName": "economic-events-log",
+    "pluralName": "economic-events-logs",
+    "displayName": "Economic Events Logs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "records": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "failed_data": {
+      "type": "json"
+    }
+  }
+}

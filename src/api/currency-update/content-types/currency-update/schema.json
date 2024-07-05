@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "currency_updates",
+  "info": {
+    "singularName": "currency-update",
+    "pluralName": "currency-updates",
+    "displayName": "Currency Update",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.currency-update-item"
+    }
+  }
+}

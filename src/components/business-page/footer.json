@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_business_page_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "letUsWatch": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::let-us-watch.let-us-watch"
+    },
+    "currencyChart": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::currency-chart.currency-chart"
+    },
+    "newsletter": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::newsletter.newsletter"
+    },
+    "faq": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::faq.faq"
+    }
+  }
+}

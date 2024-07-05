@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_components_tab_icons",
+  "info": {
+    "displayName": "Tab Icon"
+  },
+  "options": {},
+  "attributes": {
+    "static_url": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

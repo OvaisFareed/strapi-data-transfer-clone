@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_form_forms",
+  "info": {
+    "displayName": "Input",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "text"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "isRequired": {
+      "type": "boolean",
+      "default": false
+    },
+    "hint": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "number",
+        "password",
+        "email",
+        "checkbox",
+        "radio",
+        "button",
+        "select"
+      ]
+    },
+    "defaultValue": {
+      "type": "string"
+    }
+  }
+}

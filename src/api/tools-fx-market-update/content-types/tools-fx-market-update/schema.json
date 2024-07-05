@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "tools_fx_market_updates",
+  "info": {
+    "singularName": "tools-fx-market-update",
+    "pluralName": "tools-fx-market-updates",
+    "displayName": "Tools-FX Market Update"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main-page.dynamic-header"
+    },
+    "sections": {
+      "type": "json"
+    },
+    "metadata": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fx_daily_trading_tables",
+  "info": {
+    "singularName": "fx-daily-trading-table",
+    "pluralName": "fx-daily-trading-tables",
+    "displayName": "FX Trading Table",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.fx-daily-trading-table-row"
+    },
+    "date": {
+      "type": "date"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

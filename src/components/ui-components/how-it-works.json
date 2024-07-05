@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_transfer_money_how_it_works",
+  "info": {
+    "displayName": "How it works",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.link-button"
+    },
+    "button2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.link-button"
+    },
+    "boardItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.board-item"
+    }
+  }
+}

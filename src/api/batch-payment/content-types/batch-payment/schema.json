@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "batch_payments",
+  "info": {
+    "singularName": "batch-payment",
+    "pluralName": "batch-payments",
+    "displayName": "Batch Payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::board.board"
+    },
+    "guide_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.card"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.stepper"
+    }
+  }
+}

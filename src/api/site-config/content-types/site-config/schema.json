@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_configs",
+  "info": {
+    "singularName": "site-config",
+    "pluralName": "site-configs",
+    "displayName": "Site Config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "economicFilter": {
+      "type": "json"
+    },
+    "exchangeCurrencies": {
+      "type": "json"
+    },
+    "toolsCurrencyPairs": {
+      "type": "json"
+    },
+    "mainExchangeCurrencies": {
+      "type": "json"
+    },
+    "defaultEconomicFilter": {
+      "type": "json"
+    },
+    "defaultCurrency": {
+      "type": "string"
+    },
+    "toolsConvertCurrency": {
+      "type": "string"
+    },
+    "economicCalendar": {
+      "type": "json"
+    }
+  }
+}

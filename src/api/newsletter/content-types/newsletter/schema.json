@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletters",
+  "info": {
+    "singularName": "newsletter",
+    "pluralName": "newsletters",
+    "displayName": "Newsletter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.form"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.card"
+    },
+    "checkbox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.form"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.link-button"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "terms": {
+      "type": "richtext"
+    }
+  }
+}

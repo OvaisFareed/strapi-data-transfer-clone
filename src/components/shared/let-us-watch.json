@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_let_us_watches",
+  "info": {
+    "displayName": "Let us watch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.link-button"
+    },
+    "pageID": {
+      "type": "string"
+    }
+  }
+}

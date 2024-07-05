@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "bp_pressrooms",
+  "info": {
+    "singularName": "bp-pressroom",
+    "pluralName": "bp-pressrooms",
+    "displayName": "Pressroom",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    }
+  }
+}

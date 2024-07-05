@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "live_currency_rate_pairs",
+  "info": {
+    "singularName": "live-currency-rate-pair",
+    "pluralName": "live-currency-rate-pairs",
+    "displayName": "Live Currency Rate Pair",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pairs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.label"
+    }
+  }
+}

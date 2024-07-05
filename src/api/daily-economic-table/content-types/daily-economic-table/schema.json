@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "daily_economic_tables",
+  "info": {
+    "singularName": "daily-economic-table",
+    "pluralName": "daily-economic-tables",
+    "displayName": "Daily Economic Table"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "data_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-economic-table.fx-daily-economic-table"
+    },
+    "footer": {
+      "type": "richtext"
+    }
+  }
+}

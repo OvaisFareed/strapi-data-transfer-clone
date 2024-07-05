@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ui_components_fx_forecast_table_rows",
+  "info": {
+    "displayName": "Fx Forecast Table Row"
+  },
+  "options": {},
+  "attributes": {
+    "bank": {
+      "type": "string"
+    },
+    "spot": {
+      "type": "string"
+    },
+    "Q1_forecast": {
+      "type": "string"
+    },
+    "Q2_forecast": {
+      "type": "string"
+    },
+    "Q3_forecast": {
+      "type": "string"
+    },
+    "Q4_forecast": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "daily_rates_tables",
+  "info": {
+    "singularName": "daily-rates-table",
+    "pluralName": "daily-rates-tables",
+    "displayName": "Daily Rates Table"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.label"
+    },
+    "data_table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fx-daily-rates-table.fx-daily-rates-table"
+    },
+    "footer": {
+      "type": "richtext"
+    }
+  }
+}

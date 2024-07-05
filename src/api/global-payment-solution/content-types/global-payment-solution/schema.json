@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_payment_solutions",
+  "info": {
+    "singularName": "global-payment-solution",
+    "pluralName": "global-payment-solutions",
+    "displayName": "Global Payment Solution",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "pageUrl": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    }
+  }
+}

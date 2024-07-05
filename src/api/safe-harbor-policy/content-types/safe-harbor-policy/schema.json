@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "safe_harbor_policies",
+  "info": {
+    "singularName": "safe-harbor-policy",
+    "pluralName": "safe-harbor-policies",
+    "displayName": "Safe Harbor Policy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
+    },
+    "contact_cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::contact-card.contact-card"
+    }
+  }
+}

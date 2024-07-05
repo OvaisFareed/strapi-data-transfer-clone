@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_tool_banners",
+  "info": {
+    "displayName": "tool-banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::button.button"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
