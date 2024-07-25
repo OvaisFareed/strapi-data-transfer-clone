@@ -5,7 +5,7 @@ module.exports = () => ({
             // providerOptions: {
             //     sizeLimit: 100000,
             // },
-            sizeLimit: 250 * 1024 * 1024, // 256mb in bytes
+            sizeLimit: 500 * 1024 * 1024, // 500mb in bytes
         },
     },
 });
